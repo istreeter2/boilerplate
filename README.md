@@ -1,93 +1,118 @@
-# [HTML5 Boilerplate](https://html5boilerplate.com/)
+# The History of the Internet
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+* 1957
+  * 1957
+    During the Cold War, on October 4, 1957 the Soviet Union (now Russia) quietly launched its first spacecraft satellite called Sputnik into orbit. This launch challenged the United States Department of Defense to put a high priority on research and projects in science and technology and created an agency called ARPA (Advanced Research Projects Agency).
+    
+* 1961
+  * The United States Air Force commissioned the Rand Corporation to proceed with a research project that consisted of protection and transfer of vital information in case of an attack in a nuclear war.
+  
+ * 1962
+    * Paul Baran of the Rand Corporation created the concept of dividing information into blocks or packets and marking the origin and destination. Then sending the packets individually from one computer to another until they all hit the final destination. In the case of a nuclear attack, packets of information will continue transmitting between computers.
+ 
+ * 1968
+    * The ARPANET project was handed over to BBN Planet (GTE). BBN received its first Honeywell mini-computer (Honeywell 516) containing only 12 kilobytes of ram.
+    
+ 
+ * 1971
+    * ARPANET was connecting 23 mini-computers in different universities and institutes in the United States, and was using the network control protocol (NCP) to transfer data.
+      
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+ 
+ * 1973
+    * Vinton "Vint" Cerf, an American computer scientist, and Robert E. "Bob" Kahn, an American engineer and computer scientist, start a project to develop Transmission-Control Protocol (TCP), while at the University of California, Los Angeles (UCLA). ARPANET went international, connecting to England and Norway.
+      
 
-This project is the product of years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
+ 
+ * 1974
+    * Bob Kahn and Vint Cerf refer to the term "Internet" for the first time in their notes regarding Transmission Control Protocol.
+    
+ 
+ * 1979
+    * Usenet was created by Steve Bellovin, Tom Truscott and Jim Ellis using UUCP.
+      
 
-* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Twitter: [@h5bp](https://twitter.com/h5bp)
+ * 1981
+    * The National Science Foundation created a separate Internet network called CSNET for institutions without access to ARPANET. It was wired on 56 kbps speed. Later Vint Cerf proposed a plan to establish a connection between ARPAMET and CSNET.
+    
+ 
+ * 1983
+    * On January 1983 TCP/IP became the standard communication method for ARPANET and it replaced the network control protocol (NCP). An organization created to oversee web research and the development of the Internet, was called Internet Activities Board (IAB). The Domain Name System (DNS) was created by the University of Wisconsin. There was about 500 hosts connected to ARPANET.
+      
 
+ * 1984
+    * The ARPANET was divided into two separate networks of MILNET and ARPANET. MILNET was used for military purposes and ARPANET was used for research and educational purposes. There was about 1000 hosts connected to ARPANET.
+    
+ * 1985
+    * The National Science Foundation starts funding several universities and institutions with supercomputer centers, to make them available for research in universities around the country. Many universities did link to the NSF network and not only used them for research and education but also for e-mail file transfer and newsgroups.
+      
 
-## Quick start
+ 
+ * 1986 - 1988
+    * The National Science Foundation continued its effort to make its own networks (NSFNET) available to educational institutions so that the educational institutions would have a faster connection. It also hired Merit Networks to helped them speed up their network.
+      
 
-Choose one of the following options:
+ 
+ * 1989
+    * The World wide web was invented by Sir Timothy John "Tim" Berners-Lee, an engineer and computer scientist from Great Britin, working as a professor at MIT and CERN Laboratory.
+    
+ 
+ * 1991
+    * The Department of Defense decided to make the 50kbs ARPANET obsolete. ARPANET was replaced by NSFNET (The National Science Foundation's Network).
+    The first line browser (called www) was used on the CERN network.
+    
 
-- Download the latest stable release from
-  [html5boilerplate.com](https://html5boilerplate.com/).
-- Clone the git repo — `git clone
-  https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-  [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-  you'd like to use.
-- Install with [npm](https://www.npmjs.com/): `npm install html5-boilerplate` and pull in what you need from the resulting `node_modules/html5-boilerplate/dist`
-- Install with [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`
+      
 
+ * 1992
+    * WWW browser was available for download via FTP by CERN. This was the big start for the world wide web.
+      
 
-## Features
-
-* HTML5 ready. Use the new elements with confidence.
-* Designed with progressive enhancement in mind.
-* Includes:
-  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
-    for CSS normalizations and common bug fixes
-  * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
-  * A custom build of [`Modernizr`](https://modernizr.com/) for feature
-    detection
-  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
-* Placeholder CSS Media Queries.
-* Useful CSS helper classes.
-* Default print styles, performance optimized.
-* An optimized version of the Google Universal Analytics snippet.
-* Protection against any stray `console` statements causing JavaScript
-  errors in older browsers.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-
-## Browser support
-
-* Chrome *(latest 2)*
-* Edge *(latest 2)*
-* Firefox *(latest 2)*
-* Internet Explorer 9+
-* Opera *(latest 2)*
-* Safari *(latest 2)*
-
-*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
-just that we'll ensure compatibility with the ones mentioned above.*
-
-If you need legacy browser support you
-can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4) (IE 6+, Firefox 3.6+, Safari 4+),
-or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0) (IE8+). They are no longer actively developed.
-
-
-## Documentation
-
-Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
-available for offline reading and provides a useful starting point for
-any documentation you want to write about your project.
-
-
-## Contributing
-
-Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
-however, if you decide to get involved, please take a moment to review
-the [guidelines](.github/CONTRIBUTING.md):
-
-* [Bug reports](.github/CONTRIBUTING.md#bugs)
-* [Feature requests](.github/CONTRIBUTING.md#features)
-* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
+ 
+ * 1993
+    * The National Science Foundation created InterNic which consists of three organizations:
+      
+      AT&T to handle database services;
+      Network Solutions, Inc. to handle host and domain name registrations and IP assignments;
+      General Atomics to handle information services
+      
+      Network Solutions began registration services for .com, .net, .org and .gov.. The National Science Foundation started turning away from the internet backbone business, and instead they designed a series of Network Access points called NAPS. They then invited private telecommunication companies to interconnect at a series of single points.
+      
 
 
-## License
+ 
+ * 1994
+    * The Internet grows significantly since it was open for commercial use. The National Science Foundation announced the following four major network access points (NAPS):
+      
+      San Francisco by Pac Bell;
+      Chicago by Ameritech;
+      New York by Sprint;
+      Washington DC by Metropolitan Fiber Systems
+      
+      Internet Seach Engines Started:
+      Yahoo,
+      Excite,
+      Infoseek
+ 
+ * 1995
+    * The number of Internet hosts reaches 4 million;
+      Apache Project Started;
+      SAIC acquires Network Solutions Inc.;
+      Network Solutions Inc. started charging for Domain Name Registration Services: $100 fee for a two years registration
+      
+      Internet Seach Engines Started:
+      Go.com,
+      Alta Vista
+ 
+ * 1996
+    * The number of Internet hosts reaches 9 million;
+      IANA hands IP Registration Authority to American Registry for Internet Numbers (ARIN) 
+      
+ 
+ * 1997
+    * The number of Internet hosts reaches 16 million
 
-The code is available under the [MIT license](LICENSE.txt).
+ 
+ * 1998
+    * Internet Corporation for Assigned Names and Numbers (ICANN) was formed.
+
