@@ -63,3 +63,25 @@ Within this branch you must still commit and push your changes, but your changes
 ## Step 7 - Merging
 
 ![Make a branch](https://raw.githubusercontent.com/istreeter2/boilerplate/master/img/step_12.PNG "Make a branch")
+
+Merge all branches you want tracked in master
+
+## Dealing with merge conflicts
+
+![Make a branch](https://raw.githubusercontent.com/istreeter2/boilerplate/master/img/step_13.PNG "Merge conflicts")
+
+If you have conflicting changes you must manually resolve the change conflicts from the merged branches.
+
+![Make a branch](https://raw.githubusercontent.com/istreeter2/boilerplate/master/img/step_14.PNG "Merge conflicts")
+
+This mini editor simply shows you the different conflicting file versions on the left and right, with the ending result in the middle.
+
+## Changing your git remote url
+
+![Make a branch](https://raw.githubusercontent.com/istreeter2/boilerplate/master/img/step_15.PNG "Remotes")
+
+OPen the remotes prompt from the VCS menu dropdown.
+
+![Make a branch](https://raw.githubusercontent.com/istreeter2/boilerplate/master/img/step_16.PNG "Remotes")
+
+Within the git remotes you can have multiple remote repos but the default is always named origin. You can click the pencil icon to change the url for any remote repo.
